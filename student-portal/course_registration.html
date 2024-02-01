@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SEMISTER REGISTRATION FORM</title>
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body >
+    <div class="main-head">
+      <img src="../images/icon.png" alt="NITPY" class="main-logo">
+      <p class="hod-name">Welcome XYZ <br> <a href="#">Reset Password</a> <br> <a href="#">Logout</a> </p>
+      <h1>NATIONAL INSTITUTE OF TECHNOLOGY PUDUCHERRY</h1>
+      <h2>Student Portal</h2>
+    </div>
+    <ul class="navbar">
+      <a class="nav-item student-item" href="course_registration.html">Course Registration</a>
+      <a class="nav-item student-item" href="view_courses.html">View Courses</a>
+    </ul>
+    <h1 align="center"><b>COURSE REGISTRATION FORM</b></h1>
+    <form class="" method="post">
+      <label for="study">1. Programme of Study: </label>
+      <input type="checkbox"  name="study" value="btech">
+      <label for="study1"><b>btech</b></label>
+      <input type="checkbox"  name="study" value="mtech">
+      <label for="study2"><b>mtech</b></label>
+      <input type="checkbox"  name="study" value="phd">
+      <label for="study3"><b>phd</b></label><br><br>
+      <label for="date"><b size=15px>2. Date of Registration: </b></label><br>
+      <input type="date" name="date" value="enter the date" size="10px"><br><br>
+      <label for="roll"><b size=15px>3. Roll number</b></label><br>
+      <input type="text" name="roll" value="" placeholder="enter the roll number"><br><br>
+      <label for="curriculum"><b size=15px>4. CURRICULUM: </b></label>
+      <select name="curriculum">
+        <option value="2017">2017</option>
+        <option value="2019">2019</option>
+      </select><br><br>
+      <label for="name"><b size=15px>5. Name of the student(as per the 10th mark list)</b></label><br>
+      <input type="text" name="name" value="" placeholder="enter your name"><br><br>
+      <p>6.</p>
+      <table>
+        <tr>
+          <th rowspan="10">Address: <br> <textarea name="name" rows="8" cols="80"></textarea></th>
+          <th>Mobile number: <br><input type="text" name="" value=""></th>
+        </tr>
+        <tr>
+          <th>Email ID: <input type="email" name="" value=""></th>
+        </tr>
+      </table>
+    <b><p>7. Whether paid:<br>a)Institute and hostel fees of previous semister(s):
+      <label for="fees"><b>yes</b></label>
+      <input type="checkbox" id="fees" name="fees" value="yes">
+      <label for="study1"><b>no</b></label>
+      <input type="checkbox" id="fees" name="fees" value="no"></p></b>
+      <b><p>b)Any other dues: <input type="text" name="dues" value=""></p></b><br>
+      <b><p>8.Course registered</p></b><br>
+      <table class="courses-class">
+        <tr>
+          <th>SNO.</th>
+          <th>Subject code</th>
+          <th>Title</th>
+          <th>Category(department/global elective/local elective)</th>
+          <th>Credits</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>CS502</td>
+          <td>XYZABC</td>
+          <td>Elective</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>CS502</td>
+          <td>XYZABC</td>
+          <td>Elective</td>
+          <td>3</td>
+        </tr>
+
+        <tr>
+          <td colspan="4">Total number of credits</td>
+          <td><input type="text" name="" value=""></td>
+        </tr>
+      </table><br><br>
+      <center> <input type="submit" name="" value="Register"></center>
+    </form>
+
+  </body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href="../images/icon.png">
+  <title>NITPY HOD portal</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+  <div class="main-head">
+    <img src="../images/icon.png" alt="NITPY" class="main-logo">
+    <p class="hod-name">Welcome XYZ <br> <a href="#">Reset Password</a> <br> <a href="#">Logout</a> </p>
+    <h1>NATIONAL INSTITUTE OF TECHNOLOGY PUDUCHERRY</h1>
+    <h2>HOD Portal</h2>
+  </div>
+  <ul class="navbar">
+    <li class="nav-item curriculum">Curriculum
+      <div class="dropdown-content curriculum-content">
+        <a href="#">Add/Update</a>
+        <a href="#">Delete</a>
+        <a href="#">View</a>
+      </div>
+    </li>
+
+    <li class="nav-item faculty">Faculty
+      <div class="dropdown-content faculty-content">
+        <a href="#">Add/Update</a>
+        <a href="#">Delete</a>
+        <a href="#">View</a>
+      </div>
+    </li>
+    <li class="nav-item specialization">Programs and Specialization
+      <div class="dropdown-content specialization-content">
+        <a href="#">Add/Update</a>
+        <a href="#">Delete</a>
+        <a href="#">View</a>
+      </div>
+    </li>
+    <li class="nav-item semester">Semester
+      <div class="dropdown-content semester-content">
+        <a href="#">Add</a>
+        <a href="#">Configure</a>
+        <a href="#">Delete</a>
+        <a href="#">View</a>
+      </div>
+    </li>
+    <li class="nav-item registration">Course Registration
+      <div class="dropdown-content registration-content">
+        <a href="#">Enable</a>
+        <a href="#">Disable</a>
+        <a href="#">View</a>
+      </div>
+    </li>
+    <li class="nav-item gradesheet">Gradesheet
+      <div class="dropdown-content gradesheet-content">
+        <a href="#">View</a>
+        <a href="#">Revoke</a>
+        <a href="#">Print</a>
+      </div>
+    </li>
+    <li class="nav-item PAC">PAC Sheet
+      <div class="dropdown-content PAC-content">
+        <a href="PAC_sheet.html">View</a>
+        <a href="#">Submit</a>
+        <a href="#">Print</a>
+      </div>
+    </li>
+  </ul>
+  <!-- <form class="PAC-sheet-select" action="index.html" method="post">
+    <select id="course" name="course">
+      <option value="Subject X">Subject X</option>
+      <option value="Subject Y">Subject Y</option>
+    </select>
+    <input type="submit" name="" value="Submit">
+  </form> -->
+<table class="course-table">
+  <tr>
+    <th>S.No</th>
+    <th>Batch</th>
+    <th>Semester</th>
+    <th>View</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>2018-2022</td>
+    <td>7</td>
+    <td><button type="button" name="button" class="view-sheet">View</button></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>2019-2023</td>
+    <td>5</td>
+    <td><button type="button" name="button" class="view-sheet">View</button></td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>2018-2022</td>
+    <td>6</td>
+    <td><button type="button" name="button" class="view-sheet">View</button></td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>2019-2023</td>
+    <td>4</td>
+    <td><button type="button" name="button" class="view-sheet">View</button></td>
+  </tr>
+</table>
+<table class="PAC-sheet">
+  <tr>
+    <th>S.No</th>
+    <th>Semester</th>
+    <th>Couse Id</th>
+    <th>Course Name</th>
+    <th>Faculty</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>X</td>
+    <td>XY123</td>
+    <td>ABCDEFG</td>
+    <td>ABCD</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>X</td>
+    <td>XY123</td>
+    <td>ABCDEFG</td>
+    <td>ABCD</td>
+
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>X</td>
+    <td>XY123</td>
+    <td>ABCDEFG</td>
+    <td>ABCD</td>
+
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>X</td>
+    <td>XY123</td>
+    <td>ABCDEFG</td>
+    <td>ABCD</td>
+
+  </tr>
+</table>
+  <footer class="footer">
+    <p>Copyrights &copy NIT Puducherry @ 2021</p>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
